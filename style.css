@@ -44,7 +44,7 @@ text-transform: uppercase;
 }
 
 .nav_item a:hover {
-     color: black;
+     color: rgb(255, 255, 255);
      text-decoration: underline;
 }
 
