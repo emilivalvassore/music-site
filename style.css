@@ -25,7 +25,6 @@ z-index: 1000;
 
 .navbar {
      width: 100%;
-     font-size: 50px; 
 display: flex;
 align-items: center;
 justify-content:space-between;
@@ -68,3 +67,14 @@ section {
      color:lightpink
 }
 
+.menu-toggle {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 5px;
+
+
+
+}
