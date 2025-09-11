@@ -64,7 +64,9 @@ section {
 
 .titulo {
      font-size: 4rem;
-     color:lightpink
+     color:lightpink;
+     text-align: center;
+     width: 100%;
 }
 
 /* Menu hambúrguer para mobile */
