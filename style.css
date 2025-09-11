@@ -10,7 +10,7 @@ box-sizing: border-box;
 header {
 width: 100%; 
 padding: 20px 8%;
-background-color: rgb(0, 0, 0);
+background-color:lightpink;
 position: fixed;
 top: 0;
 left: 0;
