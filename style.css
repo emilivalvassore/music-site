@@ -1,78 +1,79 @@
 * {
-  margin: 0;
-  padding: 0;
-box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-
-
 header {
-width: 100%; 
-padding: 20px 8%;
-background-color:lightpink;
-position: fixed;
-top: 0;
-left: 0;
-z-index: 1000;
+    width: 100%;
+    padding: 20px 8%;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 #logo {
-     font-size: 1.5rem;
-     font-weight: 600;
-     display: flex;
-     align-items: center;
-     gap: 8px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-
 .navbar {
-     width: 100%;
-display: flex;
-align-items: center;
-justify-content:space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav_lista {
-display: flex;
-gap: 80px; 
-text-transform: uppercase;
-
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    text-transform: uppercase;
 }
 
 .nav_item {
-     font-size: 50px;
-     color:rgb(255, 255, 255);
-     cursor: pointer;
-     transition: all 0.3s ease;
-
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+ .nav_item:hover {
+    background-color:rgb(191, 4, 191) ;
+    color: rgb(155, 153, 153);
+    text-decoration: underline;
+ }
 
-.nav_item:hover {
-     color: rgb(255, 255, 255);
-     text-decoration: underline;
-}
+ .home {
+    display: flex;
+    min-height: calc(100vh - 91px);
+    margin-top: 91px;
+ }
 
-.home {
-display: flex;
-min-height: calc(100vh - 91px);
-margin-top: 91px;
-}
+ section {
+    width: 100%;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: center;
+ }
 
-section {
-     width: 100%;
-     padding: 20px 8%;
-     display: flex;
-}
+ .titulo {
+    font-size: 4rem;
+    color: #1d1d1d;
+    text-align: center;
+    width: 100%;
+ }
 
-.titulo {
-     font-size: 4rem;
-     color:lightpink;
-     text-align: center;
-     width: 100%;
-}
+ .titulocor {
+    color: blueviolet;
+ }
 
-/* Menu hambúrguer para mobile */
+ /* Menu hambúrguer para mobile */
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -143,6 +144,7 @@ section {
     }
 }
 
+
 @media (max-width: 480px) {
     header {
         padding: 10px 3%;
@@ -156,10 +158,6 @@ section {
         font-size: 18px;
     }
 }
-
-
-
-
 
 
 /* Media queries para o título */
