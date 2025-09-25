@@ -7,7 +7,7 @@
 header {
     width: 100%;
     padding: 20px 8%;
-    background-color: blueviolet;
+    background-color: rgb(255, 191, 230);
     position: fixed;
     top: 0;
     left: 0;
@@ -44,7 +44,7 @@ header {
     transition: all 0.3s ease;
 }
  .nav_item:hover {
-    background-color:rgb(191, 4, 191) ;
+    background-color:rgb(255, 212, 238) ;
     color: rgb(155, 153, 153);
     text-decoration: underline;
  }
