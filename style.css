@@ -70,7 +70,7 @@ header {
  }
 
  .titulocor {
-    color: blueviolet;
+    color: rgb(255, 184, 237);
  }
 
  /* Menu hambúrguer para mobile */
@@ -111,7 +111,7 @@ header {
         left: -100%;
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: rgb(255, 195, 223);
+        background-color: rgb(255, 255, 255);
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
