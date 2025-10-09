@@ -1,7 +1,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
+:root {
+    --cor-primaria-1:#ffffff;
+    --cor-primaria-2:#ffe9ad; 
+     --cor-primaria-3:#FFC2E2; 
+     --cor-primaria-4:#FF90B3;
+    --cor-primaria-5:#EF7A85; 
 
+    --cor-secundaria-1:#ffffff; 
+    --cor-secundaria-2: #1d1d1d;
+}
 
 
 * { 
