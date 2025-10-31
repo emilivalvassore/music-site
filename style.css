@@ -99,6 +99,10 @@ header {
  }
  .titulo_section {
     color: var(--cor-primaria-5);
+   font-size:1.5rem ;
+   text-align: left;
+   margin-bottom: 20px;
+   
  }
 
  /* Menu hambúrguer para mobile */
