@@ -13,20 +13,17 @@
 }
 
 
-* { 
-     
-
-
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family: "Dancing Script", cursive;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
     width: 100%;
     padding: 20px 8%;
-    background-color: rgb(255, 201, 215);
+    background-color: blueviolet;
     position: fixed;
     top: 0;
     left: 0;
@@ -63,16 +60,15 @@ header {
     transition: all 0.3s ease;
 }
  .nav_item:hover {
-    background-color: rgb(255, 201, 215) ;
+    background-color:rgb(191, 4, 191) ;
     color: rgb(155, 153, 153);
     text-decoration: underline;
  }
 
  .home {
     display: flex;
-    padding: 20px ;
+    padding: 60px 0 20px;
     margin-top: 91px;
-
  }
 
  section {
@@ -90,47 +86,46 @@ header {
  }
 
  .titulocor {
-    color:rgb(255, 214, 220);
+    color: blueviolet;
  }
 
- .secao { 
+ .secao {
     padding-right: 8%;
     padding-top: 2%;
     margin-top: 20px;
  }
+
  .titulo_section {
-    color: var(--cor-primaria-5);
-   font-size:1.5rem ;
-   text-align: left;
-   margin-bottom: 20px;
-   
+    color: var(--cor-primaria-3);
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 20px;
  }
 
- .moldura_video{
+ .moldura_videos {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
     justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style: none;
  }
+
  .video {
     flex: 1 1 30%;
     margin: 10px;
     box-sizing: border-box;
     display: flex;
-    justify-content:center;
+    justify-content: center;
  }
 
  .video iframe {
     width: 100%;
     height: auto;
-   aspect-ratio:16/9;
- border-radius: 15%;
-    border: 4px solid var(--cor-primaria-3)
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+    border: 4px solid var(--cor-primaria-3);
  }
-
 
  /* Menu hambúrguer para mobile */
 .menu-toggle {
@@ -170,7 +165,7 @@ header {
         left: -100%;
         width: 100%;
         height: calc(100vh - 70px);
-        background-color:rgb(255, 201, 215);
+        background-color: blueviolet;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
