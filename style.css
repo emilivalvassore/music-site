@@ -60,8 +60,8 @@ header {
     transition: all 0.3s ease;
 }
  .nav_item:hover {
-    background-color:rgb(191, 4, 191) ;
-    color: rgb(155, 153, 153);
+    background-color:rgb(0, 0, 0) ;
+    color: var(--cor-primaria-1)e;
     text-decoration: underline;
  }
 
