@@ -1,0 +1,26 @@
+{
+  "name": "Emili's music",
+  "short_name": "Playlist by Valvassore",
+  "description": "The greatest playlist of all time",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#C7EF00",
+  "theme_color": "#C7EF00",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["music", "entertainment"],
+  "lang": "pt-BR"
+}
